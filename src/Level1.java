@@ -34,5 +34,4 @@ public class Level1 {
 
         return false;
     }
-
 }
