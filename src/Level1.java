@@ -3,13 +3,13 @@ public class Level1 {
         String[] str1 = s1.split(" ");
         String[] str2 = s2.split(" ");
 
-        int difStr = h1 - h2 + 1;
+        int mapLengthDifference = h1 - h2 + 1;
         int difCol = w1 - w2 + 1;
 
         int x = 0;
         int y = 0;
 
-        while (x != difStr) {
+        while (x != mapLengthDifference) {
             boolean flag = true;
 
             for (int i = 0; i < h2; i++) {
